@@ -97,6 +97,9 @@ function main() {
     curMusic = 0;
     mode = urlParams.get("mode");
 
+    buttonLeft.innerText = "<";
+    buttonRight.innerText = ">";
+
     if(mode == null || mode == "black") {
         blackMode();
     } else {
