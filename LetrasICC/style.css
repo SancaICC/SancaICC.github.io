@@ -1,0 +1,73 @@
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+#head {
+    background: #143655;
+    display: flex;
+    flex-basis: 1cm;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.button1 {
+    color: white;
+    text-align: center;
+    flex: 1;
+    cursor: pointer;
+    line-height: 1cm;
+}
+
+.button1:hover {
+    background: #0f2b46;
+}
+
+#page {
+    color: white;
+    text-align: center;
+    flex: 3;
+    font-size: 4vw;
+    font-family: Arial;
+    line-height: 1cm;
+}
+
+#content {
+    flex: 1;
+    overflow: scroll;
+}
+
+#text {
+    text-align: center;
+    padding: 10px;
+    font-size: 4vw;
+    font-family: Arial;
+}
+
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Old versions of Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Edge, Opera and Firefox */
+  }
+
+  .black {
+      background: black;
+      color: white;
+  }
+
+  .white {
+    background: white;
+    color: black;
+  }
