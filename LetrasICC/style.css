@@ -25,6 +25,7 @@ body {
     flex: 1;
     cursor: pointer;
     line-height: 3cm;
+    font-size: 4vw;
 }
 
 .button1:hover {
