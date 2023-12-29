@@ -14,7 +14,7 @@ body {
 #head {
     background: #143655;
     display: flex;
-    flex-basis: 1cm;
+    flex-basis:3cm;
     flex-grow: 0;
     flex-shrink: 0;
 }
@@ -24,7 +24,7 @@ body {
     text-align: center;
     flex: 1;
     cursor: pointer;
-    line-height: 1cm;
+    line-height: 3cm;
 }
 
 .button1:hover {
@@ -36,8 +36,9 @@ body {
     text-align: center;
     flex: 3;
     font-size: 4vw;
+    font-weight: bold;
     font-family: Arial;
-    line-height: 1cm;
+    line-height: 3cm;
 }
 
 #content {
@@ -47,7 +48,7 @@ body {
 
 #text {
     text-align: center;
-    padding: 10px;
+    padding: 20px;
     font-size: 4vw;
     font-family: Arial;
 }
