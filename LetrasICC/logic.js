@@ -93,7 +93,7 @@ function main() {
 
     lyrics = new Lyrics();
     urlParams = getURLParam();
-    musicIDs = urlParams.get("id").split(",").map(e=>{return parseInt(e);});
+    musicIDs = urlParams.get("id").split(",").filter(e=>{return e != "";}).map(e=>{return parseInt(e);});
     curMusic = 0;
     mode = urlParams.get("mode");
 
